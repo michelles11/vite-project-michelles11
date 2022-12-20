@@ -10,7 +10,15 @@ body,
 
 :root {
   --light-blue: #2998ff;
-
+  --black: #000;
+  --dark-blue: #135cc5;
+  --light-red: #f87171;
+  --dark-red: #dc2626;
+  --gray: #252c30;
+  /*Intentions*/
+  --primary: var(--light-blue);
+  --secondary: var(--dark-blue);
+  --font-size:
   /*Typography */
   --h1: 7.594rem;
   --h2: 5.063rem;
@@ -18,10 +26,51 @@ body,
   --h4: 2.25rem;
   --h5: 1.5rem;
 }
-
-.hero {
-  background-color: var(--light-blue);
+.warm {
+  --primary: var(--light-red);
+  --secondary: var(--dark-red);
 }
+.cool {
+  --primary: var(--light-blue);
+  --secondary: var(--dark-blue);
+}
+.hero {
+  background-color: var(--primary);
+}
+.main {
+  background-color: var(--secondary);
+  height: 90vh;
+}
+
 h1 {
   font-size: var(--h1);
+}
+h2 {
+  font-size: var(--h2);
+}
+h3 {
+  font-size: var(--h3);
+}
+h4 {
+  font-size: var(--h4);
+}
+h5 {
+  font-size: var(--h5);
+}
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border: none;
+  border-radius: 10rem;
+  transition: all 0.2s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }

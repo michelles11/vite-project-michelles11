@@ -9,3 +9,10 @@ change themes as desired
 -Use both map and filter to create new arrays to iterate through
 -Create two separate themes using CSS Custom Properties and allow
 users to change theme */
+document.querySelectorAll(".btn").addEventListener("click", function () {
+  if (document.body.classList.contains("cool")) {
+    document.body.classList.add("warm");
+    document.body.classList.remove("cool");
+  } else {
+  }
+});
