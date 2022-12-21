@@ -4,10 +4,15 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 AOS.init();
-document.querySelector("#app").innerHTML = `
-<h1>Hello????</h1>
-  <div>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>`;
+
 console.log(menu);
+
+document.querySelector("#btn").addEventListener("click", function () {
+  if (document.body.classList.contains("cool")) {
+    document.body.classList.add("warm");
+    document.body.classList.remove("cool");
+  } else {
+    document.body.classList.add("cool");
+    document.body.classList.remove("warm");
+  }
+});
