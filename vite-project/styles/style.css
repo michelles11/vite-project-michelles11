@@ -9,28 +9,23 @@ body,
 }
 
 :root {
-  --light-purple: ##a9568a;
-  --dark-purple:#a433cc;
   --light-red: #f87171;
   --dark-red: #dc2626;
-  --burgundy:#d32c3f;
-  --teal:#4cb3ad ;
-  --light-green:#7dfe01;
-  --dark-green:#669a65;
-  --super-light-blue:#00fffd;
-  --light-blue:#349dcb;
+  --burgundy: #d32c3f;
+  --lime: #bedd22;
+  --dark-green: #046307;
+  --light-blue: #349dcb;
   --dark-blue: #4447bb;
-  --light-orange:#fc8b03;
-  --lime:#bedd22;
-  --pink:#ff0087;
-  --yellow:#fad805;
-  --brown:#af6d50;
+  --light-orange: #fc8b03;
+  --yellow: #fad805;
+  --brown: #964b00;
   --gray: #252c30;
   --black: #000;
+  --white: #ffffff;
   /*Intentions*/
   --primary: var(--light-red);
-  --secondary: var(--light-purple);
-  --font-size:
+  --secondary: var(--dark-red);
+  --font-size: var(--h1);
   /*Typography */
   --h1: 7.594rem;
   --h2: 5.063rem;
@@ -38,34 +33,9 @@ body,
   --h4: 2.25rem;
   --h5: 1.5rem;
 }
-.harvard {
-  --primary: var(--light-red);
-  --secondary: var(--dark-red);
-}
-.princeton {
-  --primary: var(--light-blue);
-  --secondary: var(--dark-blue);
-}
-.upenn{
-}
-.brown{
-}
-.columbia{
-
-}
-.dartmouth{
-
-}
-.yale{
-
-}
-.cornell{
-  
-}
-
-.hero {
+.title {
   background-color: var(--primary);
-  font-size: xx-large;
+  font-size: var(--h1);
   text-align: center;
 }
 .main {
