@@ -7,4 +7,12 @@ AOS.init();
 
 console.log(list);
 
-document.querySelector("#btn").addEventListener("click", function () {});
+document.querySelector("#btn").addEventListener("click", 
+function makeCards() {
+    list.forEach((school)=>{
+        DOMSelectors.Display.insertAdjacentHTML(
+            "beforeend"
+            `<div class`
+        )
+    })
+}
