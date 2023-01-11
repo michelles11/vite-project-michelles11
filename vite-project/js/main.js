@@ -7,12 +7,15 @@ AOS.init();
 
 console.log(list);
 
-document.querySelector("#btn").addEventListener("click", 
+document.querySelector("#btn").addEventListener("click"), DOM;
 function makeCards() {
-    list.forEach((school)=>{
-        DOMSelectors.Display.insertAdjacentHTML(
-            "beforeend"
-            `<div class`
-        )
-    })
+  list.forEach((school) => {
+    DOMSelectors.Display.insertAdjacentHTML(
+      "beforeend"`<div class="card">
+            <h2>${school.name}</h2>
+            <img class="image" src="${school.image}" alt=""></div>`
+    );
+  });
 }
+
+makeCards();

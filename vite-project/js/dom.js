@@ -1,0 +1,3 @@
+const DOMSelectors = {
+  document.getElementById()
+};
