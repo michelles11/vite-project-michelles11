@@ -81,7 +81,14 @@ h5 {
   text-align: center;
   background-color: antiquewhite;
   border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.img {
-  width: 50%;
+.image {
+  height: 30vh;
+  border-radius: 1rem;
+}
+.cool {
+  --primary: var(--);
 }
