@@ -4,5 +4,6 @@ const DOMSelectors = {
   green: document.getElementById("green"),
   orange: document.getElementById("orange"),
   Display: document.getElementById("Display"),
+  theme: document.getElementById("theme"),
 };
 export { DOMSelectors };

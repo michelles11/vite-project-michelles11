@@ -44,6 +44,7 @@ body,
 
 h1 {
   font-size: var(--h1);
+  background-color: var(--primary);
 }
 h2 {
   font-size: var(--h2);
@@ -90,5 +91,8 @@ h5 {
   border-radius: 1rem;
 }
 .cool {
-  --primary: var(--);
+  --primary: var(--light-blue);
+}
+.warm {
+  --primary: var(--dark-blue);
 }
