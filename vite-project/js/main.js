@@ -47,7 +47,7 @@ DOMSelectors.green.addEventListener("click", function () {
       )
     );
 });
-DOMSelectors.orange.addEventListener("click", function () {
+DOMSelectors.orange.addEventListener("click"., function () {
   DOMSelectors.Display.innerHTML = "";
   list
     .filter((school) => school.color.includes("orange"))
